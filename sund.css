@@ -1,0 +1,120 @@
+a{
+    text-decoration: hover;
+    color: white;
+}
+
+  {
+box-sizing: border-box; 
+  }
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+    background-color: #B4D2BA;
+  }
+
+.col-1 {
+    background: #96ACB7;
+    width: 8%
+  }
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    width 80%;
+    flex: 4;
+  }
+
+#feed {
+    padding: 40px 0px;
+}
+
+iframe{
+    padding-left: 5%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+  }
+
+.content > article {
+    flex: 4;
+    min-height: 60vh;
+  }
+
+header, footer {
+    background: #36558F;
+    height: 20vh;
+  }
+
+footer, article, nav {
+    padding: 1em;
+  }
+
+header {
+    line-height: 25px;
+}
+
+.header img {
+    padding: 10px;
+    float: left;
+    width: 100px;
+    height: 125px;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-family: arial nova;
+}
+
+h2{
+    color: white;
+    font-family: arial nova;
+    font-size: 25px;
+}
+
+h1{
+    color: white;
+    font-family: arial nova;
+    font-size: 40px;
+}
+
+p{
+    font-family: arial nova;
+    font-size: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #96ACB7;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: arial nova;
+}
+
+.sidenav a {
+    padding: 20px 10px 10px 8px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+} 
